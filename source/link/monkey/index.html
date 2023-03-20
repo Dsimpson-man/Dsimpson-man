@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta name="viewport" content="user-scalable=0" />
+<html>
+
+<head>
+    <title>fazhan</title>
+    <script src="./marmoset.js"></script>
+</head>
+
+<body>
+    <script>
+
+
+        // 'scene.mview': 表示要嵌入的Marmoset场景文件名，Marmoset Viewer将加载该文件并在网页中呈现出来。
+
+        // width: 设置Marmoset Viewer的宽度，这里设置为800像素。
+
+        // height: 设置Marmoset Viewer的高度，这里设置为600像素。
+
+        // autoStart: 设置Marmoset场景自动开始播放动画，这里设置为true。
+
+        // fullFrame: 设置Marmoset场景占据整个网页框架，这里设置为true。
+
+        // pagePreset: 禁用任何页面预设，这里设置为false。
+
+        marmoset.embed('one.mview', { width: 512, height: 512, autoStart: false, fullFrame: false, pagePreset: false });
+    </script>
+</body>
+
+</html>
